@@ -1,0 +1,9 @@
+BAIROA FÚTBOL CLUB — V25.57 PRIVACIDAD
+
+• El nombre y número del jugador ya no se guardan permanentemente.
+• Se conservan solo durante la sesión abierta mediante sessionStorage.
+• Al cerrar la sesión/app dejan de persistir.
+• Esta versión elimina automáticamente bairoaPlayerName y bairoaPlayerNumber que hayan quedado en localStorage de versiones anteriores.
+• No se añadió ningún envío de datos, analítica ni base de datos.
+
+Base: V25.56 PWA.

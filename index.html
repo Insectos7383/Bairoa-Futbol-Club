@@ -1023,10 +1023,10 @@ if(window.speechSynthesis){
 function getBairoaChildData(){
   const nameEl=document.querySelector('#playerName,#childName,#nombre,#nameInput,input[name="name"],input[name="nombre"]');
   const numEl=document.querySelector('#playerNumber,#childNumber,#numero,#numberInput,input[name="number"],input[name="numero"]');
-  const name=(nameEl&&nameEl.value)||(localStorage.getItem("bairoaPlayerName"))||"";
-  const number=(numEl&&numEl.value)||(localStorage.getItem("bairoaPlayerNumber"))||"";
-  if(name) localStorage.setItem("bairoaPlayerName",name);
-  if(number) localStorage.setItem("bairoaPlayerNumber",number);
+  const name=(nameEl&&nameEl.value)||(sessionStorage.getItem("bairoaPlayerName"))||"";
+  const number=(numEl&&numEl.value)||(sessionStorage.getItem("bairoaPlayerNumber"))||"";
+  if(name) sessionStorage.setItem("bairoaPlayerName",name);
+  if(number) sessionStorage.setItem("bairoaPlayerNumber",number);
   return {name,number};
 }
 function refreshPlayerIdentity(){
@@ -1742,6 +1742,14 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+</script>
+
+
+<script>
+try {
+  localStorage.removeItem("bairoaPlayerName");
+  localStorage.removeItem("bairoaPlayerNumber");
+} catch (e) {}
 </script>
 
 </body></html>

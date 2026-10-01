@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bairoa-futbol-v25-56';
+const CACHE_NAME = 'bairoa-futbol-v25-57';
 const APP_ASSETS = [
   "./",
   "./index.html",
