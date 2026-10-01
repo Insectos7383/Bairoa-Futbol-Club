@@ -1,0 +1,12 @@
+BAIROA FUTBOL CLUB - V25.53
+Prueba en iPhone / Android desde la misma red Wi-Fi que la PC
+
+1. En la PC abra CMD dentro de esta carpeta.
+2. Ejecute: npx http-server -p 8080
+3. Mantenga la ventana CMD abierta.
+4. En el celular abra Safari (iPhone) o Chrome (Android).
+5. Escriba la dirección que muestre http-server, por ejemplo:
+   http://192.168.0.7:8080
+6. No abra index.html desde Archivos/Files del teléfono; use la dirección HTTP del paso 5.
+
+Si cambia la dirección IP de la PC, use la nueva dirección que aparezca bajo "Available on".

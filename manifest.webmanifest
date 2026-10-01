@@ -1,0 +1,26 @@
+{
+  "name": "Bairoa Fútbol Club",
+  "short_name": "Bairoa Fútbol",
+  "description": "Juego educativo de fútbol de Bairoa Fútbol Club",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#c9efff",
+  "theme_color": "#c9efff",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

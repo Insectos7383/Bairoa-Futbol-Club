@@ -1,0 +1,29 @@
+BAIROA FÚTBOL CLUB — V25.56 PWA
+
+Esta versión está preparada para instalarse como aplicación web (PWA) en iPhone y Android.
+
+IMPORTANTE:
+- Ya no necesitará la PC ni http-server después de publicarla e instalarla.
+- Para que iPhone/Android permita instalarla y guardar el juego para uso sin conexión,
+  los archivos deben publicarse una vez en un sitio HTTPS.
+- Abrir index.html directamente desde Archivos no activa el Service Worker.
+
+iPhone:
+1. Abra la dirección HTTPS del juego en Safari.
+2. Pulse Compartir.
+3. Seleccione “Añadir a pantalla de inicio”.
+4. Abra Bairoa Fútbol desde el icono creado.
+5. Después de una primera carga completa, el juego queda almacenado para uso sin conexión.
+
+Android:
+1. Abra la dirección HTTPS en Chrome.
+2. Menú > “Instalar aplicación” o “Añadir a pantalla principal”.
+3. Abra el icono Bairoa Fútbol.
+
+Archivos PWA añadidos:
+- manifest.webmanifest
+- service-worker.js
+- icon-192.png
+- icon-512.png
+
+Base del juego: V25.55. No se alteró la lógica del juego.
